@@ -27,8 +27,8 @@ todo:
     }
 
     @Test
-    @DisplayName("returns true when initial string is equal to reversed sting")
-    void testIsPalindrome() {
+    @DisplayName("returns true when initial string is a palindrome of reversed string")
+    void testIsPalindromeTrue() {
 //        Arrange
         String inputString2 = "level";
 
@@ -41,7 +41,7 @@ todo:
     }
 
     @Test
-    @DisplayName("returns false when initial string is not equal to reversed sting")
+    @DisplayName("returns false when initial string is not a palindrome of reversed string")
     void testIsPalindromeFalse() {
 //        Arrange
         String inputString3 = "hello";
