@@ -16,6 +16,12 @@ public class StringManipulator {
     public boolean isPalindrome(String input) {
         // TODO: Implement the logic to check if the input string is a palindrome
         // (A palindrome = same forwards as backwards)
+        String reversedString = new StringBuilder(input).reverse().toString();
+
+        if(input.equals(reversedString)) {
+            return true;
+        }
+
         return false;
     }
 }
